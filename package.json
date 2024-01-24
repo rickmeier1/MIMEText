@@ -8,21 +8,25 @@
       "node": {
         "import": "./dist/node/mimetext.es.js",
         "require": "./dist/node/mimetext.cjs",
-        "default": "./dist/node/mimetext.cjs"
+        "default": "./dist/node/mimetext.cjs",
+        "types": "./types/index.d.ts"
       },
       "import": "./dist/browser/mimetext.es.js",
       "require": "./dist/browser/mimetext.cjs",
-      "default": "./dist/browser/mimetext.cjs"
+      "default": "./dist/browser/mimetext.cjs",
+      "types": "./types/index.d.ts"
     },
     "./browser": {
       "import": "./dist/browser/mimetext.es.js",
       "require": "./dist/browser/mimetext.cjs",
-      "default": "./dist/browser/mimetext.cjs"
+      "default": "./dist/browser/mimetext.cjs",
+      "types": "./types/index.d.ts"
     },
     "./node": {
       "import": "./dist/node/mimetext.es.js",
       "require": "./dist/node/mimetext.cjs",
-      "default": "./dist/node/mimetext.cjs"
+      "default": "./dist/node/mimetext.cjs",
+      "types": "./types/index.d.ts"
     },
     "./gas": {
       "default": "./dist/gas/mimetext.js"
@@ -30,7 +34,7 @@
   },
   "main": "dist/node/mimetext.cjs",
   "module": "./dist/node/mimetext.es.js",
-  "types": "types",
+  "types": "types/index.d.ts",
   "scripts": {
     "setup": "exit 0",
     "precompile": "rm -rf build/*",
